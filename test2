@@ -1,0 +1,19 @@
+ nawvasndvlsdnvldlnvlkdsnbldbbdlsdndv;
+avlnan
+nvlasnsdddnbv;ndv;dnb;sd
+alsnval
+alsv 
+last(a,x):
+  low = 0 
+  high = len(a)-1
+  result = -1
+  while(low<=high):
+    mid = low + (high - low)//2
+    if x == a[mid]:
+      result = mid 
+      low = mid+1
+    elif x < a[mid]:
+      high = mid -1
+    else:
+      low = mid+1
+  return resultt
